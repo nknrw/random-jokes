@@ -3,6 +3,7 @@ const jokeElement = document.querySelector('.joke');
 const getJokeBtn = document.querySelector('.get-joke-btn');
 
 function returnJoke() {
+    jokeElement.textContent = ''
     fetch(`https://v2.jokeapi.dev/joke/Any?type=single`)
     .then((res) => {
         return res.json();
