@@ -1,0 +1,74 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    border-bottom: #fff 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading {
+    width: fit-content;
+    margin: 0;
+    font-size: 32px;
+    font-weight: normal;
+    margin: 10px;
+    word-wrap: break-all;
+    hyphens: auto;
+}
+
+.content {
+    width: 100%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.joke {
+    max-width: 100%;
+    font-size: 72px;
+    margin: 10px;
+    word-wrap: break-all;
+    hyphens: auto;
+}
+
+.get-joke-btn {
+    margin: 10px;
+    height: 80px;
+    outline: 1px solid #fff;
+    width: calc(100% - 10px * 2);
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: #000;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px #fff solid;
+}
+
+.footer-copyright {
+    margin: 5px;
+    font-size: 12px;
+}
