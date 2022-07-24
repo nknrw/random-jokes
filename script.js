@@ -10,8 +10,9 @@ function returnJoke() {
     .then((data) => {
         jokeElement.textContent = data.joke;
     });
+    window.scroll(0, 0)
 };
 
-getJokeBtn.addEventListener('click', returnJoke);
+getJokeBtn.addEventListener('click',returnJoke);
 
 returnJoke();
