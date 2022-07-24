@@ -9,10 +9,9 @@ function returnJoke() {
     })
     .then((data) => {
         jokeElement.textContent = data.joke;
-        console.log(jokeElement.textContent)
-    })
+    });
 };
 
 getJokeBtn.addEventListener('click', returnJoke);
 
-returnJoke()
+returnJoke();
