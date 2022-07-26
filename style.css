@@ -62,6 +62,15 @@ body {
     }   
 }
 
+.setup {
+    margin: 0 0 80px;
+}
+
+.punchline {
+    margin: 0;
+    color: #808080;
+}
+
 .get-joke-btn {
     margin: 20px;
     height: 80px;
